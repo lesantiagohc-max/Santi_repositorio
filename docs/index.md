@@ -1,7 +1,9 @@
 # Proyecto de Santiago Herrera Conde 
 
 Bienvenido 👋  
-Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
+Soy Santiago Herrera Conde y me considero alguien creativo y siempre dispuesto a enfretar nuevos retos.
+
+Entre mis gustos se encuentran los deportes como el futbol, el hockey sobre pasto y el bexeo, tambien me gustan mucho los videojuegos especializados en shooters u juegos de simulacion, tambien tengo una gran pasion por la cocina, estas actividades no solo las disfruto, sino que tambien me ayudan a crecer como persona dia tras dia.
 
 ---
 
