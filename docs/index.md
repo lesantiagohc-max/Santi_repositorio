@@ -1,4 +1,4 @@
-# Proyecto de Santiago Herrera Conde 
+# **Proyecto de Santiago Herrera Conde**
 
 Bienvenido 👋  
 
@@ -16,3 +16,95 @@ Entre mis gustos se encuentran los deportes como el futbol, el hockey sobre past
    site_name: Documentación del Curso
    theme:
      name: material
+     <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reloj Digital Moderno 12h — Ciudad de México</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .reloj {
+    background: rgba(0,0,0,0.4); /* fondo semi-transparente */
+    backdrop-filter: blur(10px);
+    padding: 40px 60px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    color: #fff;
+    min-width: 280px;
+  }
+
+  .hora {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  .fecha {
+    font-size: 18px;
+    color: #cfd8dc;
+    text-transform: capitalize;
+  }
+
+  @media(max-width: 400px){
+    .reloj {
+      padding: 30px 40px;
+    }
+    .hora { font-size: 45px; }
+    .fecha { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="reloj">
+  <div id="hora" class="hora">--:--:-- --</div>
+  <div id="fecha" class="fecha">Cargando fecha...</div>
+</div>
+
+<script>
+const TIMEZONE = 'America/Mexico_City';
+
+function actualizarReloj() {
+  const ahora = new Date();
+
+  // Hora en formato 12h con AM/PM
+  const horaStr = new Intl.DateTimeFormat('es-MX', {
+    timeZone: TIMEZONE,
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: true
+  }).format(ahora);
+
+  // Fecha completa en español
+  const fechaStr = new Intl.DateTimeFormat('es-MX', {
+    timeZone: TIMEZONE,
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  }).format(ahora);
+
+  document.getElementById('hora').textContent = horaStr;
+  document.getElementById('fecha').textContent = fechaStr;
+}
+
+// Ejecutar al cargar y actualizar cada segundo
+actualizarReloj();
+setInterval(actualizarReloj, 1000);
+</script>
+
+</body>
+</html>

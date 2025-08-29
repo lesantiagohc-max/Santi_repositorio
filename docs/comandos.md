@@ -18,7 +18,7 @@
 **negritas**, *cursivas*, ~~tachado~~, `código en línea`
 ```
 
-**negritas**, *cursivas*, ~~tachado~~, `código en línea`
+**negritas**, *cursivas*, ~~tachado~~, `código en línea` 
 
 ---
 
