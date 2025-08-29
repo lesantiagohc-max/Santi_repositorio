@@ -6,17 +6,15 @@ Soy Santiago Herrera Conde y me considero alguien creativo y siempre dispuesto a
 
 Entre mis gustos se encuentran los deportes como el futbol, el hockey sobre pasto y el boxeo, tambien me gustan mucho los videojuegos especializados en shooters u juegos de simulacion, a su vez tengo una gran pasion por la cocina, estas actividades no solo las disfruto, sino que tambien me ayudan a crecer como persona dia tras dia.
 
-![Diagrama del sistema](recursos/imgs/ibero.jpeg)
 ---
 
-     <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reloj Digital Moderno 12h — Ciudad de México</title>
 <style>
-  
+
   .reloj {
     background: rgba(0,0,0,0.4); /* fondo semi-transparente */
     backdrop-filter: blur(10px);
