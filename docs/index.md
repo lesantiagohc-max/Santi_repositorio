@@ -5,7 +5,7 @@ Bienvenido  😁
 Soy **Santiago Herrera Conde**, estudiante de la Ingenieria en Mecatronica en la **IBERO Puebla**, actualmente curso 1.er semestre.
 ---
 
-<img src="recursos/imgs/imagen pagina meca.jpg" alt="..." width="100"
+<img src="recursos/imgs/imagen_pagina_meca.jpg" alt="..." width="100"
 
 ---
 
