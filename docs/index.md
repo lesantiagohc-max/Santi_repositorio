@@ -4,17 +4,7 @@ Bienvenido  😁
 
 Soy **Santiago Herrera Conde**, estudiante de la Ingenieria en Mecatronica en la **IBERO Puebla**, actualmente curso 1.er semestre.
 ---
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Imagen en HTML</title>
-</head>
-<body>
-
-  <img src="https://github.com/lesantiagohc-max/Santi_repositorio/blob/main/docs/recursos/imgs/imagen%20pagina%20meca.jpg" alt="Descripción de la imagen" width="300">
-
-</body>
-</html>
+<img>scr="https://github.com/lesantiagohc-max/Santi_repositorio/blob/main/docs/recursos/imgs/imagen%20pagina%20meca.jpg"
 ---
 
 **Un poco de mi:**
