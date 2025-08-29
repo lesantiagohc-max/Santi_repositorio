@@ -5,8 +5,6 @@ Bienvenido  😁
 Soy **Santiago Herrera Conde**, estudiante de la Ingenieria en Mecatronica en la **IBERO Puebla**, actualmente curso 1.er semestre.
 
 ---
-Contacto: 201239@iberopuebla.mx
----
 
 **Un poco de mi:**
 
@@ -16,6 +14,8 @@ Entre mis gustos se encuentran los deportes como el futbol, el hockey sobre past
 
 Considero que uno de mis mayores logros ha sido pertenecer al seleccionado estatal del equipo de hockey de Tlaxcala, al igual que haber participado en distintos torneos estatales y nacionales de futbol.
 
+---
+Contacto: 201239@iberopuebla.mx
 ---
 
 <html lang="es">
