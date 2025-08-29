@@ -9,13 +9,6 @@ Entre mis gustos se encuentran los deportes como el futbol, el hockey sobre past
 ![Diagrama del sistema](recursos/imgs/ibero.jpeg)
 ---
 
-## Empezar rápido (3 pasos)
-
-1. **Edita el nombre del sitio** en `mkdocs.yml`:
-   ```yaml
-   site_name: Documentación del Curso
-   theme:
-     name: material
      <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,16 +16,7 @@ Entre mis gustos se encuentran los deportes como el futbol, el hockey sobre past
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reloj Digital Moderno 12h — Ciudad de México</title>
 <style>
-  body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
+  
   .reloj {
     background: rgba(0,0,0,0.4); /* fondo semi-transparente */
     backdrop-filter: blur(10px);
