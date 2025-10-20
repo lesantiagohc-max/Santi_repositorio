@@ -19,6 +19,34 @@ En la segunsa practica se abordo el tema del ESP32, con el cual despues de intro
 
 Código de circuito 1:
 
+const int led-26;
+
+const int boton=34:
+
+void setup() {
+
+Serial.begin(115200);
+
+pinMode (led, OUTPUT):
+
+pinMode (boton, INPUT):
+}
+void loop() {
+
+// put your main code
+
+int estado - digitalRead (boton);
+
+if(estado == 1){
+
+digitalwrite(led,1);
+}
+else{
+
+digitalwrite(led,0);
+}
+}
+
 Código de circuito 2:
 
 
