@@ -58,7 +58,9 @@ Código de circuito 2:
 
 *Tercera Practica*
 ---
+En la tercera practica se usaron el ESP32 y motores, con los cuales se hizo un circuito el cual su funcion era hacer el motor funcionar, despues de eso se añadio una midificacion al codigo, haciendo que el mototor acelerara gradualmente a su maximo y despues disminuir su velocidad gradualmente hasta dejar se funcionar.
 
+Codigo:
 
 
 
