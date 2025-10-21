@@ -152,3 +152,10 @@ function copiarCodigo() {
 
 *Cuarta Practica (Proyecto Segundo Parcial)*
 ---
+Durante2 semanas se estuvo trabajando en un proyecto conjunto por salones, la finalidad de este era hacer un coche desde cero, para competier entre los salones de mecatronica en un juego estilo Rocket League.
+
+La primera semana en conjunto, se planifico como iba a ser la estructura del coche al igual que se empezo con la programacion para los motores y servos, los cuales se programaron en Arduino, usanso al igual una ESP32 y un puente H.
+
+
+
+
