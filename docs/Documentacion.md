@@ -70,6 +70,7 @@ function copiarCodigo() {
 
 </body>
 
+
 Código de circuito 2:
 
 
@@ -84,6 +85,66 @@ Código de circuito 2:
 En la tercera practica se usaron el ESP32 y motores, con los cuales se hizo un circuito el cual su funcion era hacer el motor funcionar, despues de eso se añadio una midificacion al codigo, haciendo que el mototor acelerara gradualmente a su maximo y despues disminuir su velocidad gradualmente hasta dejar se funcionar.
 
 Codigo:
+<title>Copiaar código</title>
+</head>
+<body>
+
+<pre><code id="codigo-aa-copiar">
+int motorPin = 5; 
+int canalPWM = 0; 
+int frecuencia = 5000; 
+int resolucion = 8; 
+
+void setup() {
+  ledcSetup(canalPWM, frecuencia, resolucion); 
+  ledcAttachPin(motorPin, canalPWM); 
+}
+
+void loop() {
+  for (int velocidad = 0; velocidad <= 255; velocidad++) {
+    ledcWrite(canalPWM, velocidad);
+    delay(10);
+  }
+  delay(1000); 
+  for (int velocidad = 255; velocidad >= 0; velocidad--) {
+    ledcWrite(canalPWM, velocidad);
+    delay(10);
+  }
+
+  delay(1000); 
+}
+
+</code></pre>
+
+<button onclick="copiaarCodigo()">Copiar código</button>
+
+<script>
+function copiarCodigo() {
+  const codigo = document.getElementById("codigo-aa-copiar");
+  // Usa navigator.clipboard si está disponible
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(codigo.innerText)
+      .then(() => {
+        alert("Código copiado al portapapeles");
+      })
+      .catch(err => {
+        console.error("Error al copiar: ", err);
+      });
+  } else {
+    // Método alternativo para navegadores más antiguos
+    const tempInput = document.createElement("textarea");
+    tempInput.value = codigo.innerText;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    tempInput.remove();
+    alert("Código copiado al portapapeles");
+  }
+}
+</script>
+
+</body>
+
 
 
 
