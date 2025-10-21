@@ -22,8 +22,7 @@ Código de circuito 1:
 </head>
 <body>
 
-<h1>Ejemplo de código copiable</h1>
-
+<h1>
 ```const int led-26;
 
 const int boton=34:
@@ -51,6 +50,8 @@ else{
 digitalwrite(led,0);
 }
 }
+</h1>
+
 </script>
 
 </body>
