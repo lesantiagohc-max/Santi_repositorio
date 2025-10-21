@@ -22,36 +22,50 @@ Código de circuito 1:
 </head>
 <body>
 
-<h1>
-```const int led-26;
-
+<pre><code id=const int led-26;
 const int boton=34:
-
 void setup() {
-
 Serial.begin(115200);
-
 pinMode (led, OUTPUT):
-
 pinMode (boton, INPUT):
 }
 void loop() {
-
 // put your main code
-
 int estado - digitalRead (boton);
-
 if(estado == 1){
-
 digitalwrite(led,1);
 }
 else{
-
 digitalwrite(led,0);
 }
 }
-</h1>
+</code></pre>
 
+<button onclick="copiarCodigo()">Copiar código</button>
+
+<script>
+function copiarCodigo() {
+  const codigo = document.getElementById("codigo-a-copiar");
+  // Usa navigator.clipboard si está disponible
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(codigo.innerText)
+      .then(() => {
+        alert("Código copiado al portapapeles");
+      })
+      .catch(err => {
+        console.error("Error al copiar: ", err);
+      });
+  } else {
+    // Método alternativo para navegadores más antiguos
+    const tempInput = document.createElement("textarea");
+    tempInput.value = codigo.innerText;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    tempInput.remove();
+    alert("Código copiado al portapapeles");
+  }
+}
 </script>
 
 </body>
