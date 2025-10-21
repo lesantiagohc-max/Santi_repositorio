@@ -18,6 +18,11 @@ Despues, con el osciloscopio visualizamos las señales de encendido y apagado qu
 En la segunsa practica se abordo el tema del ESP32, con el cual despues de introduirnos a el, realizamos un circuito el cual concistia en encender una luz led, mediante el uso de un boton. Despues de terminar ese circuito, se procedio a realizar otro, el cual hace que la luz del parpade intermitentemente.
 
 Código de circuito 1:
+<title>Copiar código</title>
+</head>
+<body>
+
+<h1>Ejemplo de código copiable</h1>
 
 ```const int led-26;
 
@@ -45,7 +50,10 @@ else{
 
 digitalwrite(led,0);
 }
-}```
+}
+</script>
+
+</body>
 
 Código de circuito 2:
 
