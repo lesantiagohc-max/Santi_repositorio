@@ -22,7 +22,7 @@ Código de circuito 1:
 </head>
 <body>
 
-<pre><code id=const int led-26;
+<pre><code id="codigo-a-copiar">const int led-26;
 const int boton=34:
 void setup() {
 Serial.begin(115200);
